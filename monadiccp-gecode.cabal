@@ -47,8 +47,14 @@ library
     else
         CC-Options:     "-g0" "-DNDEBUG" "-Wall" "-std=c++11"
 
-test-suite Queens
+test-suite monadiccp-gecode-queens
     hs-source-dirs: examples
     type: exitcode-stdio-1.0
     main-is: Queens.hs
+    build-depends: base, monadiccp-gecode
+
+test-suite monadiccp-gecode-vuza
+    hs-source-dirs: examples
+    type: exitcode-stdio-1.0
+    main-is: Vuza.hs
     build-depends: base, monadiccp-gecode
