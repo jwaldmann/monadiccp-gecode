@@ -28,11 +28,11 @@ Flag Debug
 library
     Hs-Source-Dirs:    src
     Include-Dirs:      lib
-                       /opt/gecode/gecode-6.0.0/include
-    Build-Depends:     base >= 2, base < 5, containers, mtl, monadiccp >= 0.7.6
+                       /opt/gecode/latest/include
+    Build-Depends:     base >= 2, base < 5, containers, mtl, monadiccp >= 0.7.7
     C-Sources:         lib/gecodeglue.cpp
     Extra-Libraries:   gecodesupport gecodeset gecodeint gecodekernel gecodesearch stdc++
-    extra-lib-dirs:    /opt/gecode/gecode-6.0.0/lib
+    extra-lib-dirs:    /opt/gecode/latest/lib
     Exposed-Modules:   Control.CP.FD.GecodeExample
                        Control.CP.FD.Gecode.Runtime
                        Control.CP.FD.Gecode.RuntimeSearch

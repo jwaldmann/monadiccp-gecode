@@ -1,0 +1,6 @@
+packages: .
+
+source-repository-package
+    type: git
+    location: https://github.com/jwaldmann/monadiccp
+    tag: a74de358c9a30ddcd86241ee0f915ff57f7ac4ae
