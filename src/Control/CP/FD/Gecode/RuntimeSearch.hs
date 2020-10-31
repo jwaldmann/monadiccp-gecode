@@ -9,6 +9,7 @@ module Control.CP.FD.Gecode.RuntimeSearch (
 ) where
 
 import Control.Monad.State.Lazy
+import Control.Monad.Fail
 import System.IO.Unsafe
 
 import Data.Map (Map)
