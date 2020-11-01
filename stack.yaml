@@ -1,11 +1,11 @@
-resolver: lts-11.6
+resolver: nightly-2020-11-01
 
 packages:
 - .
 
 extra-deps:
   - git: https://github.com/jwaldmann/monadiccp
-    commit: a74de358c9a30ddcd86241ee0f915ff57f7ac4ae
+    commit: cb43c61c2032335ba3313920847f02ad8d0b0976
 
 
 system-ghc: true
