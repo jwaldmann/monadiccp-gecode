@@ -392,7 +392,7 @@ astGenerate = do
     True -> astMainUnitDef
   return [
     CPPFile {
-      cppMacroStm = [ CPPMacroIncludeUser x | x <- astIncludes ],
+      cppMacroStm = [ CPPMacroIncludeSys x | x <- astIncludes ],
       cppUsing = [ "Gecode", "std" ],
       cppTranslUnit = tru
     },
